@@ -1,0 +1,61 @@
+
+
+.destination-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s ease;
+    margin: 20px;
+  }
+  
+  .destination-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .destination-card h2 {
+    color: #333333;
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .destination-card p {
+    color: #666;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .destination-card strong {
+    color: #000;
+  }
+
+  .destinations-page {
+    padding: 20px;
+  }
+  
+  .destination-cards {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+  }
+  
+  
+  .destinations-page {
+    padding: 20px;
+    text-align: center; 
+  }
+  
+  .destinations-page h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+    
+
+  .destinations-page {
+ 
+    height: 100vh;
+    background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.3)), url('beach.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  

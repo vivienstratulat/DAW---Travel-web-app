@@ -1,0 +1,41 @@
+
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+    background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.3)), url('agency.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.box {
+    width: 400px;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow 0.3s ease; 
+}
+
+.box-content {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.box-logo {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.box-title {
+    font-size: 18px;
+    margin: 0;
+}
+
+.box:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}

@@ -1,0 +1,9 @@
+.navbar-link {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+.navbar-link:hover {
+  color: #b09d80db;
+}
