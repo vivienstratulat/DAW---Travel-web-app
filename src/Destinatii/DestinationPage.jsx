@@ -21,6 +21,7 @@ const DestinationPage = ({ destinations }) => {
             location={destination.location}
             pricePerNight={destination.pricePerNight}
             slots={destination.slots}
+            discount={destination.discount}
           />
         ))}
       </div>

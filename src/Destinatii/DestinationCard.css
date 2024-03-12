@@ -58,4 +58,8 @@
     background-size: cover;
     background-position: center;
   }
-  
+
+  .offer strong {
+    color: #b80808;
+
+  }

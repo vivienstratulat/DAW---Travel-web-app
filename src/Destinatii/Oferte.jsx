@@ -6,6 +6,7 @@ import DestinationCard from './DestinationCard';
 const Oferte = ({ destinations }) => {
   const [startDate, setStartDate] = useState(null); 
   const [endDate, setEndDate] = useState(null); 
+  const destinationsWithDiscount = destinations.filter(destination => destination.discount > 0);
 
   return (
     <div className="destinations-page">
@@ -13,7 +14,7 @@ const Oferte = ({ destinations }) => {
       <DatePicker selected={startDate} onChange={date => setStartDate(date)} placeholderText="Select start date" />
       <DatePicker selected={endDate} onChange={date => setEndDate(date)} placeholderText="Select end date" />
       <div className="destination-cards">
-        {destinations.map((destination, index) => (
+        {destinationsWithDiscount.map((destination, index) => (
           <DestinationCard
             key={index}
             title={destination.title}
@@ -21,6 +22,7 @@ const Oferte = ({ destinations }) => {
             location={destination.location}
             pricePerNight={destination.pricePerNight}
             slots={destination.slots}
+            discount={destination.discount}
           />
         ))}
       </div>

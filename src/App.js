@@ -13,21 +13,24 @@ function App() {
       description: 'Description of Destination 1',
       location: 'Location 1',
       pricePerNight: 100,
-      slots: 5
+      slots: 5,
+      discount:0
     },
     {
       title: 'Destination 2',
       description: 'Description of Destination 2',
       location: 'Location 2',
       pricePerNight: 120,
-      slots: 3
+      slots: 3 ,
+      discount: 20
     },
     {
       title: 'Destination 3',
       description: 'Description of Destination 3',
       location: 'Location 3',
       pricePerNight: 70,
-      slots: 6
+      slots: 6,
+      discount: 40
     },
   ];
 
